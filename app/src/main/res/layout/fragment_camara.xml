@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323030"
+    tools:context=".CamaraFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="CITACIONES"
+        android:textAlignment="center"
+        android:textColor="#F10D0D"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="197dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="520dp"
+        android:text="Este botón está diseñado para capturar exclusivamente las citaciones de color azul emitidas por la ANT"
+        android:textAlignment="center"
+        android:textColor="#FFFEFE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fotoblanca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#FF5722"
+        android:text="Capturar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fotoazul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#FF5722"
+        android:text="Capturar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="197dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="520dp"
+        android:text="Este botón está diseñado para capturar exclusivamente las citaciones de color blanco emitidas por la ANT"
+        android:textAlignment="center"
+        android:textColor="#FFFEFE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="280dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="92dp"
+        android:text="Al capturar fotos, notarás que hay dos botones, uno blanco y otro azul, cada uno destinado a capturar un tipo específico de citación"
+        android:textAlignment="textStart"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="120dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="560dp"
+        android:foreground="@drawable/angetes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="115dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#FF5722"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="132dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="132dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
